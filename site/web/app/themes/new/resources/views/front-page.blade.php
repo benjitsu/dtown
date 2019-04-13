@@ -6,6 +6,9 @@
         <div class="jumbotron jumbotron-fluid">
         </div>
     </section>
+    <div class="captureFloat">
+    @include('partials.capture')
+</div>
     <section id="homePrograms">
         <div class="container">
             <div class="row">
@@ -14,27 +17,27 @@
             <div class="row">
                 <div class="col-4">
                     <div class="program"></div>
+                    <div class="name">Metcon</div>
+                </div>
+                <div class="col-4">
+                    <div class="program"></div>
+                    <div class="name">H.I.I.T</div>
+                </div>
+                <div class="col-4">
+                    <div class="program"></div>
+                    <div class="name">Functional Grind</div>
+                </div>
+                <div class="col-4">
+                    <div class="program"></div>
+                    <div class="name">Personal Training</div>
+                </div>
+                <div class="col-4">
+                    <div class="program"></div>
                     <div class="name">Brazilian Jiu-Jitsu</div>
                 </div>
                 <div class="col-4">
                     <div class="program"></div>
-                    <div class="name">Judo</div>
-                </div>
-                <div class="col-4">
-                    <div class="program"></div>
-                    <div class="name">Kids Martial Arts</div>
-                </div>
-                <div class="col-4">
-                    <div class="program"></div>
-                    <div class="name">No Gi Grappling</div>
-                </div>
-                <div class="col-4">
-                    <div class="program"></div>
-                    <div class="name">Wrestling</div>
-                </div>
-                <div class="col-4">
-                    <div class="program"></div>
-                    <div class="name">Mobility Training</div>
+                    <div class="name">Muay Thai</div>
                 </div>
             </div>
         </div>
@@ -130,6 +133,8 @@
             </div>
         </div>
     </section>
+    <section id="capture">
     @include('partials.capture')
+                    </section>
 </main>
 @endsection
