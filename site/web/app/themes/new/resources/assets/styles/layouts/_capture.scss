@@ -41,8 +41,12 @@
     }
 
     input[type="submit"] {
-      font-weight: 800;
+      background-color: #880101;
       cursor: pointer;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      color: white;
     }
   }
 }

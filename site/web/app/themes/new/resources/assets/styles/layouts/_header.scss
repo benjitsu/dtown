@@ -1,8 +1,8 @@
 .banner {
   background-color: $dark;
+  min-height: 80px;
 
   .inner {
-    height: 80px;
     max-width: 1140px;
     margin: 0 auto;
   }

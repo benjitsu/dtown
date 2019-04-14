@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-4">
                     <div class="program"></div>
-                    <div class="name">H.I.I.T</div>
+                    <div class="name">Strength & Conditioning</div>
                 </div>
                 <div class="col-4">
                     <div class="program"></div>

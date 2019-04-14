@@ -4,7 +4,7 @@
 @extends('layouts.app-min')
 
 @section('content')
-<section id="classHero">
+<section id="classHero" class="about">
         <div class="jumbotron jumbotron-fluid mb-0">
         </div>
     </section>
