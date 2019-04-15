@@ -4,12 +4,12 @@
 @extends('layouts.app-min')
 
 @section('content')
-<section id="classHero" class="@php   
+<section id="classHero">
+        <div class="jumbotron @php   
         $the_page = sanitize_post( $GLOBALS['wp_the_query']->get_queried_object() );
 $slug = $the_page->post_name;
 echo $slug;
-        @endphp">
-        <div class="jumbotron jumbotron-fluid mb-0">
+        @endphp jumbotron-fluid mb-0">
         </div>
     </section>
     <div class="container classContent">

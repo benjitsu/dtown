@@ -1,10 +1,33 @@
 #classHero {
+  .jumbotron.metcon {
+    background-image: url("../images/metcon.jpg");
+  }
+
+  .jumbotron.strength-conditioning {
+    background-image: url("../images/strength.jpg");
+  }
+
+  .jumbotron.functional-grind {
+    background-image: url("../images/functional.jpg");
+  }
+
+  .jumbotron.brazilian-jiu-jitsu {
+    background-image: url("../images/metcon.jpg");
+  }
+
+  .jumbotron.muay-thai {
+    background-image: url("../images/metcon.jpg");
+  }
+
+  .jumbotron.personal-training {
+    background-image: url("../images/metcon.jpg");
+  }
+
   .jumbotron {
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/bg5.jpg");
   }
 }
 
