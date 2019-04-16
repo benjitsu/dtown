@@ -16,28 +16,40 @@
             </div>
             <div class="row">
                 <div class="col-4">
-                    <div class="program"></div>
+                    <a href="/metcon">
+                    <div class="program metcon"></div>
                     <div class="name">Metcon</div>
+                    </a>
                 </div>
                 <div class="col-4">
-                    <div class="program"></div>
+                <a href="/metcon">
+                    <div class="program strength"></div>
                     <div class="name">Strength & Conditioning</div>
+                    </a>
                 </div>
                 <div class="col-4">
-                    <div class="program"></div>
+                <a href="/metcon">
+                    <div class="program functional"></div>
                     <div class="name">Functional Grind</div>
+                    </a>
                 </div>
                 <div class="col-4">
-                    <div class="program"></div>
+                <a href="/metcon">
+                    <div class="program personal"></div>
                     <div class="name">Personal Training</div>
+                    </a>
                 </div>
                 <div class="col-4">
-                    <div class="program"></div>
+                <a href="/metcon">
+                    <div class="program bjj"></div>
                     <div class="name">Brazilian Jiu-Jitsu</div>
+                    </a>
                 </div>
                 <div class="col-4">
-                    <div class="program"></div>
+                <a href="/metcon">
+                    <div class="program muaythai"></div>
                     <div class="name">Muay Thai</div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -64,30 +76,16 @@
         <div class="inner">
             <div class="container">
                 <div class="row">
-                    <div class="col-7">
-                        <h2>Brazilian Jiu-Jitsu is For Everyone</h2>
-                        <p>Brazilian Jiu-Jitsu is martial art that focuses on leverage and control to defeat an
-                            opponent,
-                            whether in a competition or a self-defense situation. Jiu-Jitu is often referred to a human
-                            chess,
-                            as it requires the body and mind to work simultaneously in a technical battle against
-                            another
-                            person. For the body, Jiu-Jitsu is an excellent way to improve physical fitness, balance,
-                            and
-                            coordination. For the mind, Jiu-Jitsu helps to build confidence, focus, and reduce stress.</p>
-                        <p>
-                            Whether you are young or old, currently in shape or not, you can enjoy and benefit of
-                            practicing
-                            Jiu-Jitsu. Students at Ralph Gracie Berkeley practice Jiu-Jitsu for a variety of reasons.
-                            Some
-                            attend primarily to improve fitness and learn a new art form, while others train to compete
-                            in
-                            tournaments and test themselves against others. All students enjoy the camaraderie and
-                            community
-                            we’ve cultivated at the academy.
-                        </p>
+                    <div class="col-lg-7">
+                    <h2>Be Athletic</h2>
+That is our Mission at Dogtown Athletic. It does not mean we only want “athletes” at our facility – it means that we believe everyone is an athlete and everyone, everyday, can be athletic. Move, dance, lift weights, sing, meditate. It is all athletic in its own way and we want to create a community of members that will embrace this idea of athleticism and fitness as much as we do.</p>
+<p>Fitness isn’t a privilege. It is a lifestyle. And we want to ensure that our facility is open and welcoming to all people, young and old, small and large, weak or strong, who just want to be better, be fitter, be athletic.</p>
+<p>But not just athletic… Dogtown Athletic.</p>
+
                     </div>
-                    <div class="col-4 offset-1 sideImg"></div>
+                    <div class="col-lg-4 offset-lg-1 mt-md-3">
+                        <div class="sideImg"></div>
+                    </div>
                 </div>
             </div>
         </div>
