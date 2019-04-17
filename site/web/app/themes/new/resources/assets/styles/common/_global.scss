@@ -20,7 +20,7 @@ body {
 }
 
 #homePrograms {
-  padding: 8rem 0 6rem 0;
+  padding: 8rem 0 4rem 0;
 
   h2 {
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
@@ -75,7 +75,7 @@ body {
 }
 
 #homeBjj {
-  padding: 6rem 0;
+  padding: 5rem 0;
 
   h2 {
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
@@ -113,7 +113,7 @@ body {
     font-size: 1.2rem;
   }
 
-  padding: 6rem 0 12rem 0;
+  padding: 5rem 0 10rem 0;
 }
 
 .minContent {
@@ -131,10 +131,12 @@ body {
 }
 
 .aboutSide {
-  background-image: url(../images/bjj-about-1x.jpg);
+  background-image: url(../images/aboutSide.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+  height: 500px;
+  max-width: 400px;
 }
 
 .instructorImg {

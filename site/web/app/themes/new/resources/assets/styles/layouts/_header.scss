@@ -28,6 +28,11 @@
       color: $dark;
     }
 
+    .dropdown-item.active,
+    .dropdown-item:active {
+      background-color: #eaeaea;
+    }
+
     li {
       @extend .nav-item;
 

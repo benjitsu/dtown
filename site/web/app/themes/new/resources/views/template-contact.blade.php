@@ -18,18 +18,18 @@
     </div>
     <div class="row description mb-5">
 
-        <div class="col-lg-8 contactform">
+        <div class="col-lg-8 contactform order-2 order-lg-1">
     @include('partials.content-page')
 </div>
   @endwhile
-  <div class="col-lg-4 d-flex justify-content-center align-items-center">
+  <div class="col-lg-4 d-flex justify-content-lg-center align-items-center order-1 order-lg-2">
   Dogtown Athletic<br/>
                         3109 Adeline St<br />
                         Oakland, CA 94608<br /><br /><br/>
     
     
                         (510) 328-3644<br />
-                        info [at] dogtownathletic.com
+                        info [at] dogtownathletic.com<br/><br/>
   </div>
 </div>
 

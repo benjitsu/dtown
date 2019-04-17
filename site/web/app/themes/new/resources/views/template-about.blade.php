@@ -4,8 +4,8 @@
 @extends('layouts.app-min')
 
 @section('content')
-<section id="classHero" class="about">
-        <div class="jumbotron jumbotron-fluid mb-0">
+<section id="classHero">
+        <div class="jumbotron about jumbotron-fluid mb-0">
         </div>
     </section>
     <div class="container classContent">
@@ -14,10 +14,12 @@
     <h1 class="position-absolute">{!! App::title() !!}</h1>
     </div>
     <div class="row description">
-        <div class="col-lg-8">
+        <div class="col-lg-7">
     @include('partials.content-page')
 </div>
-<div class="col-lg-3 offset-1 aboutSide"></div>
+<div class="col-lg-4 offset-lg-1 mt-4 mt-lg-0">
+  <div class="aboutSide"></div>
+</div>
 </div>
   @endwhile
   @include('partials.capture')

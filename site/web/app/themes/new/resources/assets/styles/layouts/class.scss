@@ -23,8 +23,13 @@
     background-image: url("../images/personal.jpg");
   }
 
+  .jumbotron.about {
+    background-image: url("../images/aboutUs.jpg");
+  }
+
   .jumbotron {
-    height: 600px;
+    height: 50vh;
+    max-height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,6 +55,11 @@
     font-weight: 800;
     margin: 0 0 1rem 0;
     font-size: 1.6rem;
+    line-height: 100%;
+  }
+
+  h2:nth-child(n+2) {
+    padding-top: 1.5rem;
   }
 
   .description {
