@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/new",
+  "publicPath": "/dogtown/wp-content/themes/new",
   "devUrl": "dogtownathletic.test",
   "proxyUrl": "http://localhost:3002",
   "cacheBusting": "[name]_[hash:8]",
