@@ -2,14 +2,14 @@
 
 @section('content')
 <main role="main">
-    <section id="homeHero">
+    <section id="homeHero" class="reveal">
         <div class="jumbotron jumbotron-fluid">
         </div>
     </section>
     <div class="captureFloat">
     @include('partials.capture')
 </div>
-    <section id="homePrograms">
+    <section id="homePrograms" class="reveal">
         <div class="container">
             <div class="row">
                 <h2 class="mr-auto ml-auto">Our Programs</h2>
@@ -54,25 +54,7 @@
             </div>
         </div>
     </section>
-    <section id="homeBjj">
-        <div>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" viewBox="0 0 800 40" style="enable-background:new 0 0 800 40;" xml:space="preserve">
-                <style type="text/css">
-                    .st0 {
-                        fill: #FFFFFF;
-                    }
-
-                    .st1 {
-                        fill: #1A1A1A;
-                    }
-                </style>
-                <rect x="0" y="0" class="st0" width="800" height="40" />
-                <polyline class="st1" points="800,0 800,40 0,40 " />
-            </svg>
-
-        </div>
-
+    <section id="homeBjj" class="reveal">
         <div class="inner">
             <div class="container">
                 <div class="row">
@@ -88,23 +70,6 @@ That is our Mission at Dogtown Athletic. It does not mean we only want “athlet
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" viewBox="0 0 800 40" style="enable-background:new 0 0 800 40;" xml:space="preserve">
-                <style type="text/css">
-                    .st0 {
-                        fill: #FFFFFF;
-                    }
-
-                    .st1 {
-                        fill: #1A1A1A;
-                    }
-                </style>
-                <rect class="st0" width="800" height="40" />
-                <polyline class="st1" points="0,40 0,0 800,0 " />
-            </svg>
         </div>
     </section>
     <section id="homeMeetus">

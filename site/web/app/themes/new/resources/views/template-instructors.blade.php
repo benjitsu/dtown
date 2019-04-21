@@ -16,5 +16,8 @@
 </div>
 </div>
   @endwhile
+  <section id="capture" class="mt7">
+    @include('partials.capture')
+                    </section>
 </div>
 @endsection

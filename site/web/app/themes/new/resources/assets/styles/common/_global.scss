@@ -3,6 +3,10 @@ body {
   font-weight: 300;
 }
 
+a {
+  transition: all 0.5s ease;
+}
+
 .navbar-toggler {
   border: none;
 }
@@ -36,6 +40,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: all 0.5s ease;
     // -webkit-box-shadow: 4px 4px rgba(233, 16, 16, 1);
     // -moz-box-shadow: 4px 4px rgba(233, 16, 16, 1);
     // box-shadow: 4px 4px rgba(233, 16, 16, 1);
@@ -69,7 +74,7 @@ body {
     text-decoration: none;
 
     .program {
-      box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
+      box-shadow: 0 3000px rgba(53, 45, 45, 0.6) inset;
     }
   }
 }
@@ -87,6 +92,32 @@ body {
     padding: 8rem 0;
     background-color: $dark;
     color: white;
+    position: relative;
+
+    &::before,
+    &::after {
+      background: inherit;
+      content: "";
+      display: block;
+      height: 50%;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      -webkit-backface-visibility: hidden; // for Chrome Windows
+    }
+
+    &::before {
+      top: 0;
+      transform: skewY(3deg);
+      transform-origin: 100% 0;
+    }
+
+    &::after {
+      bottom: 0;
+      transform: skewY(3deg);
+      transform-origin: 0 100%;
+    }
   }
 
   .sideImg {
